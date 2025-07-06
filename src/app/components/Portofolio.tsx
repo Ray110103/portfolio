@@ -9,7 +9,7 @@ const Portofolio = () => {
         <div className="border rounded-lg overflow-hidden ">
           <img
             src="/kemenhut.png"
-            alt="Project 2"
+            alt="Project 1"
             className="w-full h-64 border-none object-cover"
           />
 
@@ -17,7 +17,6 @@ const Portofolio = () => {
             <a
               href="https://www.figma.com/file/MpTnauLAD155QmYKwLfqPF/FID?type=design&node-id=0-1&mode=design&t=O4ozWCpKL3ftc140-0"
               target="_blank"
-              rel="noopener noreferrer"
               className="text-4xl font-semibold hover:underline "
             >
               Kemenhut
@@ -31,16 +30,16 @@ const Portofolio = () => {
 
         <div className="border rounded-lg overflow-hidden ">
           <img
-            src="/CleanLY.png"
+            src="/CleanLy.png"
             alt="Project 2"
-            className="w-full h-64 border-none object-coverr"
+            className="w-full h-64 border-none object-cover"
           />
+
           <div className="p-4 mb-4">
             <a
-              href="https://www.figma.com/file/MpTnauLAD155QmYKwLfqPF/FID?type=design&node-id=0-1&mode=design&t=O4ozWCpKL3ftc140-0"
+              href="https://www.figma.com/design/9V2Y8Iq0qJlk6yFVkbOXBj/cLeanLy?node-id=741-4898&t=92xWHon4h86rmAyG-0np"
               target="_blank"
-              rel="noopener noreferrer"
-              className="text-4xl font-semibold hover:underline"
+              className="text-4xl font-semibold hover:underline "
             >
               CleanLy
             </a>

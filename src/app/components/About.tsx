@@ -13,7 +13,7 @@ const About = () => {
         <div>
           <h2 className="text-5xl font-bold mb-12 ">About Me</h2>
           <p >
-            <p>
+            
               I'm a Binusian Computer Science student with a focus on UI/UX
               Design and currently pursuing full-stack web development at
               Purwadhika. I’m a passionate developer experienced in building
@@ -36,7 +36,7 @@ const About = () => {
               I'm always open to new opportunities, feedback, and
               connections—whether for a project, collaboration, or creative
               exploration.
-            </p>
+            
           </p>
         </div>
       </div>
