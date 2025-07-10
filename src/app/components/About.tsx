@@ -11,7 +11,7 @@ const About = () => {
           <img src="about.jpeg" alt="Random" className="w-fit rounded " />
         </div>
         <div>
-          <h2 className="text-5xl font-bold mb-12 ">About Me</h2>
+          <h2 className="text-4xl font-bold mb-12 ">About Me</h2>
           <p >
             
               I'm a Binusian Computer Science student with a focus on UI/UX

@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <section id="experience" className="h-fit p-10 bg-gray-50 text-black">
-      <h2 className="text-3xl font-bold mb-12 ">Experience</h2>
+      <h2 className="text-4xl font-bold mb-12 ">Experience</h2>
       <div className="space-y-4">
         <div>
           <h3 className="text-xl font-semibold">

@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <section className="h-fit p-10 bg-gray-50 text-black text-center ">
-      <h2 className="text-3xl font-bold mb-12 ">Skills</h2>
+      <h2 className="text-4xl font-bold mb-12 ">Skills</h2>
       <ul className="grid grid-cols-2 sm:grid-cols-3 gap-10">
         <li className="flex flex-col items-center">
           <img

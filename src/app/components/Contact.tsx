@@ -6,7 +6,7 @@ const Contact = () => {
       id="contact"
       className="h-fit p-10 bg-gray-50 text-black py-10"
     >
-      <h2 className="text-3xl font-bold mb-12 text-center ">Contact</h2>
+      <h2 className="text-4xl font-bold mb-12 text-center ">Contact</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-15 ">
         <div>

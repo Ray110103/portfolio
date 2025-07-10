@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <section className="h-fit p-10 bg-white text-black ">
-        <h2 className="text-3xl font-bold mb-12 text-center ">Testimonials</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center ">Testimonials</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <blockquote className="border-l-4 pl-4 italic">
             "John is a highly skilled developer and a great team player. His code is clean and efficient."
