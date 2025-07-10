@@ -4,38 +4,42 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen bg-gray-100 p-10 flex items-center justify-center text-black"
+      className="min-h-screen bg-gray-100 px-6 py-20 flex items-center justify-center text-black"
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-12">Hi, I am Graygorius Arif</h1>
-          <p className="text-lg mb-2">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-balance">
+            Hi, I am Graygorius Arif
+          </h1>
+          <p className="text-xl mb-2">
             Fullstack Developer | UI/UX Designer | Illustrator
           </p>
-          <p className="text-md text-gray-600">
+          <p className="text-gray-700 mb-6">
             I build beautiful and performant web applications with modern
             technologies. Passionate about creating meaningful user experiences
-            and writing clean, maintainable code.
+            and writing clean, maintainable code. And also illustrating anime character
           </p>
-
-          <div className="mt-5 flex gap-4 flex-wrap md:flex-nowrap">
+          <div className="flex flex-wrap gap-4">
             <a
               href="#portfolio"
-              className="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition"
+              className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
             >
               View Portfolio
             </a>
             <a
               href="#contact"
-              className="bg-gray-300 text-gray-800 px-5 py-2 rounded hover:bg-gray-400 transition"
+              className="bg-gray-300 text-gray-800 px-6 py-2 rounded hover:bg-gray-400 transition"
             >
               Contact Me
             </a>
           </div>
         </div>
-
         <div className="flex justify-center">
-          <img src="/profile.png" alt="thumbnail" className="w-100 h-100  " />
+          <img
+            src="/profile-removebg-preview.png"
+            alt="Profile"
+            className="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover shadow-md"
+          />
         </div>
       </div>
     </section>
